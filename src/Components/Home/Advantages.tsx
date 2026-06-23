@@ -30,7 +30,7 @@ export default function Advantages({
 
           {/* Right Content */}
           <div>
-            <h2 className="text-[#0A2A52] text-3xl md:text-4xl font-bold leading-snug">
+            <h2 className="text-[#0A2A52] text-3xl md:text-[35px] leading-snug font-heading">
               {title}
             </h2>
 
@@ -53,7 +53,7 @@ export default function Advantages({
               ))}
             </div>
 
-            <button className="mt-10 bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5">
+            <button className="mt-10 bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5 cursor-pointer">
                   Explore EPC Advantages
                 </button>
           </div>

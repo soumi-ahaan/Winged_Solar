@@ -19,17 +19,17 @@ export default function Power({
 
 }: PowerProps) {
   return (
-    <section className="bg-[#F6F6F6]">
+
       <div className="max-w-[1440px] mx-auto relative px-4 md:px-6 lg:px-12 xl:px-[60px] py-[90px]">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
 
             {/* Left Content */}
           <div>
-            <h2 className="text-[#0A2A52] text-3xl md:text-4xl font-bold leading-snug">
+            <h2 className="text-[#0A2A52] text-3xl md:text-[35px] font-heading leading-snug">
               {title1}
 
             </h2>
-            <h2 className="text-[#0A2A52] text-3xl md:text-[45px] font-bold leading-snug">
+            <h2 className="text-[#0A2A52] text-3xl md:text-[45px] font-heading leading-snug">
               {title2}
 
             </h2>
@@ -41,7 +41,7 @@ export default function Power({
               {description2}
             </p>
 
-            <button className="mt-10 bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5">
+            <button className="mt-10 bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5 cursor-pointer">
                   Learn About Power + Water
                 </button>
           </div>
@@ -57,6 +57,6 @@ export default function Power({
 
         </div>
       </div>
-    </section>
+  
   );
 }

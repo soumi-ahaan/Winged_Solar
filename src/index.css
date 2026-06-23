@@ -6,13 +6,12 @@ body {
 
 
 @font-face {
-  font-family: 'EurostileExtendedBlack';
-  src: url('./assets/EurostileExtendedBlack.ttf') format('truetype');
-
-  
+  font-family: 'Eurostile_Extd_Black';
+  src: url('/Eurostile_Extd_Black.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
 }
 
-
-.font-heading{
-  font-family:'EurostileExtendedBlack', sans-serif;
+.font-heading {
+  font-family: 'Eurostile_Extd_Black', sans-serif;
 }

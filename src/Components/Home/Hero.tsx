@@ -22,21 +22,21 @@ export default function Hero() {
       <div className="relative z-20">
         <Header />
         <div className="max-w-[1440px] mx-auto relative">
-        <div className="relative px-4  md:px-6 lg:px-12 xl:px-[50px] pt-[200px]">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
+        <div className="relative px-4  md:px-6 lg:px-12 xl:px-[50px] pt-[250px]">
+          <div className="grid lg:grid-cols-2 gap-4 items-center">
             {/* LEFT */}
             <div>
               <div className="inline-flex items-center rounded-full border border-[#147BB7] px-4 py-2 text-xs text-[#147BB7]">
                 DEPLOYABLE SOLAR INFRASTRUCTURE
               </div>
 
-              <h1 className="mt-6 text-white font-bold leading-tight text-4xl md:text-5xl lg:text-6xl font-heading">
+              <h1 className="mt-6 text-white font-bold leading-tight text-3xl md:text-[40px]  font-heading">
                 Deployable Solar <br/> Infrastructure for C&I, <br/> EPCs, and Critical Power
               </h1>
 
-              <p className="mt-6 max-w-xl text-gray-300 leading-8">
-                Winged Solar delivers factory-built solar, storage,
-                and power + water platforms that deploy faster.
+              <p className="mt-6  text-gray-300 leading-relaxed text-lg ">
+               Winged Solar™ delivers factory-built solar, storage, and power + water platforms that deploy faster, use less land, reduce field construction, and create new options for commercial, industrial, public works, and remote infrastructure projects.
+
               </p>
             </div>
 
@@ -45,18 +45,21 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-4 items-center">
+          <div className="grid lg:grid-cols-2 gap-4 items-center mt-4">
             {/* LEFT */}
             <div>
               <div className="flex flex-wrap gap-4 ">
-                <button className="bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5">
+                <button className="bg-[#F5A623] text-black font-semibold rounded-full px-7 py-5 cursor-pointer">
                   Explore the Platforms
                 </button>
 
-                <button className="border border-white/40 backdrop-blur-xl text-white rounded-full px-7 py-5">
+                <button className="border border-white/40 backdrop-blur-xl text-white rounded-full px-7 py-5 cursor-pointer">
                   Request A Deployment Consultation
                 </button>
               </div>
+              <p className="mt-2  text-2xl text-white ">Brought to you by 
+                <span className="font-heading text-[#F5A623]"> EnPower Star.</span>
+              </p>
             </div>
 
             {/* RIGHT */}
@@ -118,7 +121,7 @@ function FeatureBox({ icon, title, desc }: FeatureProps) {
 backdrop-blur-sm
 border
 border-white/20
-shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/20 rounded-2xl p-4">
+shadow-[0_8px_32px_rgba(0,0,0,0.3)]  rounded-2xl p-4">
       <div className="h-16 w-16 rounded-xl bg-[#24A0D5] flex items-center justify-center text-white">
         <img
     src={icon}
