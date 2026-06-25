@@ -51,7 +51,7 @@ export default function Power({
             <img
               src={image}
               alt={title1}
-              className="w-full h-full object-cover rounded-[20px]"
+              className="w-full h-full object-cover "
             />
           </div>         
 
