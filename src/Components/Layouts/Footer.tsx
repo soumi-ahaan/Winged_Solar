@@ -142,7 +142,7 @@ export default function Footer() {
       </div>
       <div className="bg-[#002E68]">
           <div className="max-w-[1440px] mx-auto relative py-6">
-            <h1 className="font-heading text-center text-white text-2xl sm:text-[42px] md:text-[50px] lg:text-[66px] xl:text-[94px] border-b-2 lg:border-b-6 border-white  leading-none whitespace-nowrap overflow-hidden">
+            <h1 className="font-heading text-center text-white text-xl  min-[375px]:text-2xl  sm:text-[42px] md:text-[50px] lg:text-[66px] xl:text-[94px] border-b-2 lg:border-b-6 border-white  leading-none whitespace-nowrap overflow-hidden">
               Winged Solar Solutions
             </h1>
             <p className="text-white text-xs text-center md:text-base mt-4">

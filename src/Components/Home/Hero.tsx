@@ -30,7 +30,7 @@ export default function Hero() {
                 DEPLOYABLE SOLAR INFRASTRUCTURE
               </div>
 
-              <h1 className="mt-6 text-white font-bold leading-tight text-xl sm:text-3xl lg:text-[40px]  font-heading animate-reveal">
+              <h1 className="mt-6 text-white font-bold leading-tight text-lg min-[375px]:text-xl sm:text-3xl lg:text-[40px]  font-heading animate-reveal">
                 Deployable Solar <br/> Infrastructure for C&I, <br/> EPCs, and Critical Power
               </h1>
 
